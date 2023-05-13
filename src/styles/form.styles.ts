@@ -7,12 +7,11 @@
  */
 
 import { createStyles, makeStyles } from '@mui/styles';
-import { Theme } from '@mui/material/styles';
 import { theme as themes } from './CommonStyles'
 
 // styles for the Navigation component
 
-export const useStyles = makeStyles((theme: Theme) =>
+export const useStyles = makeStyles(() =>
     createStyles({
         root: {
             display: "flex",
